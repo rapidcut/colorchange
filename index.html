@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color changer</title>
+    <style>
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items:flex-end;
+        gap: 20px;
+    }
+    span {
+        border: 2px solid black;
+        color: aliceblue;
+        font-weight: bold;
+        /* height: 300px; */
+        padding: 30px;
+    }
+    #red {
+        background-color: red;
+    }
+    #black {
+        background-color: black;
+    }
+    </style>
+</head>
+<body>
+    <h1>Color changer website</h1>
+    <div class="container">
+        <span class="button" id="red" >Red</span>  
+        <span class="button" id="black" >Black</span>
+          
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
